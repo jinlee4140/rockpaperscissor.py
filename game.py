@@ -41,12 +41,8 @@ def rockpaperscissors():
 
 		if ai_score > player_score:
 			print "Computer wins"
-		else
+		else:
 			print "Player wins"
 
-			
+
 rockpaperscissors()
-
-
-
-

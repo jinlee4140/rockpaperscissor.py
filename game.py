@@ -9,7 +9,7 @@ def rockpaperscissors():
 
 
 
-	while player_score == 2 or ai_score == 2:
+	while player_score < 2 and ai_score < 2:
 		print "Player Score: %d, Computer Score: %d" % (player_score, ai_score)
 		print "Choose rock, paper, or scissor"
 
@@ -39,10 +39,10 @@ def rockpaperscissors():
 
 
 
-		if ai_score > player_score:
-			print "Computer wins"
-		else:
-			print "Player wins"
+	if ai_score > player_score:
+		print "Computer wins"
+	else:
+		print "Player wins"
 
 
 rockpaperscissors()
